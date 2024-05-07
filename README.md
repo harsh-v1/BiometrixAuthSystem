@@ -5,8 +5,8 @@
 ### Overview
 The project consists of two main components:
 
-### Flask Web Application: The web application provides a user interface for login using face recognition. It allows users to register their face and login securely to access protected resources.
-Android App: The Android app serves as an additional layer of security for user authentication. It utilizes biometric authentication (such as fingerprint or face unlock) on the user's device to verify their identity before granting access to the web application.
+#### Flask Web Application: The web application provides a user interface for login using face recognition. It allows users to register their face and login securely to access protected resources.
+#### Android App: The Android app serves as an additional layer of security for user authentication. It utilizes biometric authentication (such as fingerprint or face unlock) on the user's device to verify their identity before granting access to the web application.
 ### Features
 + Face recognition login system for web applications.
 + Registration of user faces for secure authentication.
@@ -27,8 +27,12 @@ Android App: The Android app serves as an additional layer of security for user 
 * Once authenticated, users can select an email ID and other personal information associated with their account.
 * The app securely communicates with the web application to facilitate login and access to protected resources.
 ### Setup
-Clone the repository to your local machine.
-Follow the setup instructions provided in the README files of the Flask web application and Android app directories.
-Ensure you have the necessary dependencies installed and configured (e.g., Python, Flask, Firebase, Android SDK).
++ Clone the repository to your local machine.
++ Follow the setup instructions provided in the README files of the Flask web application and Android app directories.
++ Ensure you have the necessary dependencies installed and configured (e.g., Python, Flask, Firebase, Android SDK).
 ### Contributions
 Contributions to the project are welcome! Feel free to submit bug reports, feature requests, or pull requests via GitHub.
+
+
+License  
+This project is licensed under the MIT License.
